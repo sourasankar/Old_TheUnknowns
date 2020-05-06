@@ -1,0 +1,101 @@
+body{
+	background: url(background/back2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+footer{
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+ 	background: #8E44AD;
+ 	position: fixed;
+ 	bottom: 0;
+ 	width: 100%;
+}
+
+.navbar-inverse{
+	background: #8E44AD;
+	color: white;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+    color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    font-weight: bold;
+} 
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: #C39BD3;
+} 
+
+.logo2{
+    border-radius: 50%; 
+}  
+
+.welcome
+{
+	background: #D2B4DE;
+	width: 70%;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	font-size: 7vw;
+	border-radius: 50px 0 50px 0;
+	font-family: fantasy; letter-spacing: 2px; color: #9C27B0;
+}
+
+.welcome2
+{
+	background: #D2B4DE;
+	width: 70%;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	font-size: 75px;
+	border-radius: 50px 0 50px 0;
+	font-family: fantasy; letter-spacing: 2px; color: #9C27B0;
+}
+
+.box
+{
+	background: #D7BDE2;
+	text-align: center;
+	vertical-align: top;
+	margin-bottom: 30px;
+	height: 320px;
+	color: white;
+}
+
+.boxlogo
+{
+	
+	margin: 35px auto 0 auto;
+	border-radius: 50%; 
+	width: 45%;
+}
+
+.text{
+	margin: 50px auto 0 auto;
+	width: 80%;
+	font-weight: bold;
+	font-family: inherit;
+}
+@media screen and (min-width: 577px) {
+  .text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text {
+    font-size: 22px;
+  }
+}
+
+.panel-title{
+	text-align: center;
+}
